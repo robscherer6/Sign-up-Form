@@ -1,0 +1,9 @@
+body {
+  background-image: url('../michael-krahn-eGD69I3ODC4-unsplash.jpg');
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+}
+
+.btn {
+  color: blue
+}
