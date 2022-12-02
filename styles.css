@@ -4,6 +4,12 @@ body {
   background-repeat: no-repeat; */
 }
 
+.sign_up {
+  display:flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
 .btn {
   color: blue
 }
