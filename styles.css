@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(../fonts/Norse-Bold.otf);
+}
+
+h1 {
+  font-family: Norse-Bold;
+}
+
 body {
   background-image: url('../michael-krahn-eGD69I3ODC4-unsplash.jpg');
   /* background-size: contain;
