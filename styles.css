@@ -27,5 +27,19 @@ body {
 .right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.writing {
+  display: flex;
+  height: 35vh;
+  width: 55vw;
+  font-size: 25px;
+  font-family: Norse-Bold;
+}
+
+.form {
+  display: flex;
+  height: 35vh;
+  width: 65vw;
+  font-size: 25px;
 }
