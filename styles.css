@@ -15,6 +15,12 @@ body {
   height: 100vh;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .left {
   background-image: url('./images/michael-krahn-eGD69I3ODC4-unsplash\ \(1\).jpg');
   width: 35vw;
@@ -42,4 +48,8 @@ body {
   height: 35vh;
   width: 65vw;
   font-size: 25px;
+}
+
+.bottom {
+  height: 30vh;
 }
