@@ -3,8 +3,9 @@
   src: url(../fonts/Norse-Bold.otf);
 }
 
-h1 {
-  font-family: Norse-Bold;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .main {
@@ -17,10 +18,14 @@ h1 {
 .left {
   background-image: url('./images/michael-krahn-eGD69I3ODC4-unsplash\ \(1\).jpg');
   width: 35vw;
-  margin: 0;
+  background-repeat: no repeat;
+  background-size: cover;
+  color: white;
+  font-family: Norse-Bold, sans-serif;
 }
 
 .right {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
