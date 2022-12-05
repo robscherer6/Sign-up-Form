@@ -53,10 +53,6 @@ h1 {
   height: 35vh;
 }
 
-/* .form-div label {
-  display: block;
-} */
-
 form {
   display: flex;
   flex-direction: row;
@@ -71,7 +67,20 @@ form {
   margin-bottom: 10px;
 }
 
+input {
+  width: 200px;
+  border-color: #E5E7EB;
+  height: 25px;
+}
+
 .bottom {
   height: 30vh;
+}
+
+.btn {
+  color: white;
+  background-color: #596D48;
+  border-radius: 5px;
+  font-size: 25px;
 }
 
