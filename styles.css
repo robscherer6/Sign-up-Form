@@ -46,13 +46,20 @@ h1 {
   height: 35vh;
 }
 
-.form {
+.middle {
   display: flex;
+  flex-direction: column;
   background-color: white;
   height: 35vh;
   font-size: 25px;
 }
 
+form {
+  display: flex;
+  flex-direction: row;
+}
+
 .bottom {
   height: 30vh;
 }
+
