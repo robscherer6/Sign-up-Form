@@ -33,20 +33,23 @@ h1 {
 .right {
   display: flex;
   flex-direction: column;
+  width: 65vw;
+  background-color: #fafafa;
 }
 
 .writing {
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
   height: 35vh;
-  width: 55vw;
-  font-size: 25px;
-  font-family: Norse-Bold;
 }
 
 .form {
   display: flex;
+  background-color: white;
   height: 35vh;
-  width: 65vw;
   font-size: 25px;
 }
 
