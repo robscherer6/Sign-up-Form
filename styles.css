@@ -23,15 +23,25 @@ body {
 
 .left {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-image: url('./images/michael-krahn-eGD69I3ODC4-unsplash\ \(1\).jpg');
   width: 35vw;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.left-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   font-family: Norse-Bold;
   font-size: 25px;
+  height: 25vh;
+  width: 100vw;
+  background-color: #fafafa;
+  opacity: 0.5;
 }
 
 .right {
