@@ -24,10 +24,10 @@ h1 {
 .left {
   background-image: url('./images/michael-krahn-eGD69I3ODC4-unsplash\ \(1\).jpg');
   width: 35vw;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  font-family: Norse-Bold, sans-serif;
+  font-family: Norse-Bold;
 }
 
 .right {
@@ -47,15 +47,28 @@ h1 {
 }
 
 .middle {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background-color: white;
   height: 35vh;
 }
 
+/* .form-div label {
+  display: block;
+} */
+
 form {
   display: flex;
   flex-direction: row;
+  margin-left: 50px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .bottom {
