@@ -61,8 +61,7 @@ body {
 }
 
 .middle {
-  /* display: flex;
-  flex-direction: column; */
+  box-shadow: 10px 5px 5px rgb(152, 151, 151);
   background-color: white;
   height: 35vh;
 }
