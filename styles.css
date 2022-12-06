@@ -110,7 +110,7 @@ input:valid {
   font-size: 25px;
 }
 
-#message {
-  display: none;
+#error {
+  color: red
 }
 
