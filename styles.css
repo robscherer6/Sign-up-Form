@@ -107,10 +107,24 @@ input:valid {
   color: white;
   background-color: #596D48;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 15px;
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  font-weight: bolder;
 }
 
 #error {
-  color: red
+  color: red;
+  margin: 1px;
+}
+
+.hyperlink {
+  margin-left: 20px;
+}
+
+a {
+  color: #596D48;
+  font-weight: bold;
 }
 
