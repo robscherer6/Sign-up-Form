@@ -24,7 +24,8 @@ body {
 .left {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-direction: column;
   background-image: url('./images/michael-krahn-eGD69I3ODC4-unsplash\ \(1\).jpg');
   width: 35vw;
   background-repeat: no-repeat;
@@ -35,11 +36,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 300px;
   color: black;
   font-family: Norse-Bold;
   font-size: 25px;
   height: 25vh;
-  width: 100vw;
+  width: 35vw;
   background-color: #fafafa;
   opacity: 0.5;
 }
@@ -100,6 +102,7 @@ input:valid {
 
 .bottom {
   height: 30vh;
+
 }
 
 .btn {
@@ -111,6 +114,7 @@ input:valid {
   width: 200px;
   height: 40px;
   font-weight: bolder;
+  box-shadow: 10px 5px 5px rgb(152, 151, 151);
 }
 
 #error {
@@ -122,8 +126,20 @@ input:valid {
   margin-left: 20px;
 }
 
-a {
+.login {
   color: #596D48;
   font-weight: bold;
+}
+
+.forFooter {
+  display: flex;
+  color: white;
+  margin-top: auto;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.a-footer {
+  color: white;
 }
 
