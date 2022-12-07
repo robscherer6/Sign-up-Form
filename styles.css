@@ -43,7 +43,12 @@ body {
   height: 25vh;
   width: 35vw;
   background-color: #fafafa;
-  opacity: 0.5;
+  opacity: 0.6;
+}
+
+.logo {
+  height: 20vh;
+  padding: 15px;
 }
 
 .right {
